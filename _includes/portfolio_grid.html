@@ -8,22 +8,18 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-eye fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <ul class="portfolio-list">
+                    {% for post in site.posts %}
+                        <li>
+                            <a href="#portfolioModal{{ post.modal-id }}" data-toggle="modal">
+                                <strong>{{ post.title }}</strong>
+                                <span class="text-muted">{{ post.subtitle }}</span>
+                            </a>
+                        </li>
+                    {% endfor %}
+                    </ul>
                 </div>
-            {% endfor %}
             </div>
         </div>
     </section>
