@@ -1,14 +1,6 @@
 ---
 title: SciTweets
-subtitle: Paper
 layout: default
-modal-id: 1
 date: 2022-10-17
-img: scitweets.png
-alt: image-alt
-project-date: October 2022
-client: Link to Paper
-category: Published Papers
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+paper_url: https://dl.acm.org/doi/epdf/10.1145/3511808.3557693
 ---
