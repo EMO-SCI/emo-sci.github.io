@@ -396,6 +396,10 @@ section h3.section-subheading {
     font-size: 18px;
 }
 
+#portfolio .portfolio-list .portfolio-meta {
+    margin: 4px 0 0;
+}
+
 #portfolio * {
     z-index: 2;
 }

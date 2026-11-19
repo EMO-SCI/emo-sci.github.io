@@ -1,6 +1,0 @@
----
-title: SciTweets
-layout: default
-date: 2022-10-17
-paper_url: https://dl.acm.org/doi/epdf/10.1145/3511808.3557693
----

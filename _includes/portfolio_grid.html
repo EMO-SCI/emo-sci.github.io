@@ -13,6 +13,13 @@
                         {% if post.paper_url %}
                         <li>
                             <a href="{{ post.paper_url }}"><strong>{{ post.title }}</strong></a>
+                            {% if post.published or post.conference %}
+                            <p class="portfolio-meta text-muted">
+                                {% if post.published %}Published: {{ post.published }}{% endif %}
+                                {% if post.published and post.conference %} · {% endif %}
+                                {% if post.conference %}Conference: {{ post.conference }}{% endif %}
+                            </p>
+                            {% endif %}
                         </li>
                         {% endif %}
                     {% endfor %}

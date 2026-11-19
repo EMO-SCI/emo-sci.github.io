@@ -5,11 +5,9 @@ Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/templ
 
 # How to use
 
-###Portfolio 
+### Portfolio
 
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
+Papers are stored in `/_posts` using the `YYYY-MM-DD-paper-title.markdown` naming convention. Each paper file should include `title`, `paper_url`, `published`, and `conference` in its front matter.
 
 ###About
 
