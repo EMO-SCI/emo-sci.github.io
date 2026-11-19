@@ -7,7 +7,7 @@ Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/templ
 
 ### Portfolio
 
-Papers are stored in `/_posts` using the `YYYY-MM-DD-paper-title.markdown` naming convention. Each paper file should include `title`, `paper_url`, `published`, and `conference` in its front matter.
+Papers are stored in `/_posts` using the `<year>-<month>-<day>-<paper>-<conference>.markdown` naming convention (for example, `2022-10-17-scitweets-cikm.markdown`). Each paper file should include `title`, `paper_url`, `published`, and `conference` in its front matter.
 
 ###About
 
